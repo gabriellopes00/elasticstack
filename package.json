@@ -1,0 +1,11 @@
+{
+  "name": "elastic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@elastic/ecs-pino-format": "^1.2.0",
+    "express": "^4.17.1",
+    "pino": "^6.13.0",
+    "pino-tee": "^0.3.0"
+  }
+}
