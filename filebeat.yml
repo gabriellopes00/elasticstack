@@ -1,6 +1,6 @@
 filebeat.inputs:
   - type: log
-    paths: ./logs.json
+    paths: /var/log/elastic-node.json
     json.keys_under_root: true
     json.overwrite_keys: true
     json.add_error_key: true
